@@ -1,5 +1,6 @@
 body{
   font-family: "Poppins", sans-serif;
+  margin-left: 250px;
 }
 
 .top-header{
@@ -12,6 +13,11 @@ body{
   justify-content: center;
 }
 
+.top-header h3{
+  position: relative;
+  bottom: 11px;
+}
+
 .top-header img{
   height: 41px;
 }
@@ -21,7 +27,8 @@ body{
 }
 .Title{
   position: relative;
-  left: 78px;
+  left: 105px;
+  font-size: smaller;
 }
 
 .container{
@@ -32,7 +39,7 @@ body{
   width: 369px;
   height: 185px;
   position: relative;
-  right: 700px;
+  right: 535px;
   top: 30px;
   border: 1px white;
   border-radius: 10%;
@@ -45,8 +52,8 @@ body{
   text-decoration-line: underline;
   text-decoration-style: "solid";
   text-decoration-color: rgba(0,116,217,1);
-  text-decoration-thickness: 8px;
-  padding-bottom: 15px;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
 }
 .flex2{
   display: inline-flex;
