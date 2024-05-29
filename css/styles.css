@@ -1,4 +1,4 @@
-body{
+.page{
   font-family: "Poppins", sans-serif;
   margin-left: 250px;
 }
@@ -84,4 +84,22 @@ body{
   height: 174px;
   position: relative;
   left: 345px;
+}
+
+.cube{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  align-content: center;
+  position: absolute;
+  transition: transform 4s, background-color 0.5s, color 0.5s ;
+}
+
+.cube:hover {
+  background: black;
+  color: white;
+  transform: translateX(60px);
 }
