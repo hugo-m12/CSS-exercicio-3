@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="242" height="200" viewBox="0 0 242 200">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#033f6b"/>
+      <stop offset="1" stop-color="#0761a2"/>
+    </linearGradient>
+  </defs>
+  <g id="logo-jn-sem-texto" transform="translate(-99)">
+    <rect id="Retângulo_2545" data-name="Retângulo 2545" width="204" height="200" transform="translate(137)" fill="url(#linear-gradient)"/>
+    <rect id="Retângulo_2546" data-name="Retângulo 2546" width="38" height="200" transform="translate(99)" fill="#e3072d"/>
+    <path id="Caminho_1" data-name="Caminho 1" d="M227.631,79.278l-36.424-.166v87.915H179.452v28.147a88.545,88.545,0,0,0,16.39,1.655c22.682,0,31.789-12.747,31.789-38.079Zm110.1,115.9V79.278h-34.77v24.835l1.656,25.166h-1.656l-28.146-50H240.051v115.9h34.768v-24.84l-1.656-25.166h1.656l28.146,50Z" transform="translate(-19.452 -38.112)" fill="#fff"/>
+  </g>
+</svg>
