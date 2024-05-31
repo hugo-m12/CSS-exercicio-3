@@ -111,6 +111,7 @@
   background-color: pink;
   border-radius: 50%;
   position: relative;
+  animation: moveBigCircle 0.5s forwards;
 }
 
 .smallcircle{
@@ -121,19 +122,12 @@
   position: relative;
   top: 95px;
   z-index: 10;
+  animation: moveSmallCircle 2s forwards;
 }
 
 .ballanimation{
   display: flex;
   gap: 100px;
-}
-
-.bigcircle:active{
-  animation: moveBigCircle 0.5s forwards;
-}
-
-.smallcircle:active{
-  animation: moveSmallCircle 2s forwards;
 }
 
 @keyframes moveBigCircle {
