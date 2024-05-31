@@ -111,9 +111,6 @@
   background-color: pink;
   border-radius: 50%;
   position: relative;
-  top: 50px;
-  left: 50px;
-  animation: moveBigCircle 2s forwards;
 }
 
 .smallcircle{
@@ -122,32 +119,29 @@
   background-color: lightblue;
   border-radius: 50%;
   position: relative;
-  top:95px;
+  top: 95px;
   z-index: 10;
-  animation: moveSmallCircle 0.5s forwards;
 }
+
 .ballanimation{
   display: flex;
   gap: 100px;
+}
+
+.bigcircle:active{
   animation: moveBigCircle 0.5s forwards;
+}
+
+.smallcircle:active{
   animation: moveSmallCircle 2s forwards;
 }
 
 @keyframes moveBigCircle {
-  from { left: 0; }
-  to { left: 160px } 
+  from { transform: translateX(0); }
+  to { transform: translateX(200px); } 
 }
-
-.bigcircle {
-  animation: moveBigCircle 0.5s forwards; 
-}
-
-
-.smallcircle {
-  animation: moveSmallCircle 3s forwards; 
-}
-
 @keyframes moveSmallCircle {
-  from { left: 0; }
-  to { left: 200px; } 
+  from { transform: translateX(0); }
+  to { transform: translateX(250px) ; } 
 }
+
