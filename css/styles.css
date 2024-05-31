@@ -65,6 +65,7 @@
   gap: 30px;
 }
 
+
 .subtext{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   position: relative;
@@ -102,4 +103,51 @@
   background: black;
   color: white;
   transform: translateX(60px);
+}
+
+.bigcircle{
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  animation: moveBigCircle 2s forwards;
+}
+
+.smallcircle{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 50%;
+  position: relative;
+  top:95px;
+  z-index: 10;
+  animation: moveSmallCircle 0.5s forwards;
+}
+.ballanimation{
+  display: flex;
+  gap: 100px;
+  animation: moveBigCircle 0.5s forwards;
+  animation: moveSmallCircle 2s forwards;
+}
+
+@keyframes moveBigCircle {
+  from { left: 0; }
+  to { left: 160px } 
+}
+
+.bigcircle {
+  animation: moveBigCircle 0.5s forwards; 
+}
+
+
+.smallcircle {
+  animation: moveSmallCircle 3s forwards; 
+}
+
+@keyframes moveSmallCircle {
+  from { left: 0; }
+  to { left: 200px; } 
 }
