@@ -176,3 +176,43 @@
   75%  {background-color:#4178E2; left:400px; top:250px; width: 100px; height: 100px; transform:rotateZ(30deg);}
   100% {background-color:#E241BF; left:600px; top:350px; width: 261px; height: 287px;}
 }
+
+.basketballanimation{
+  position: relative;
+  top: 300px;
+  left: 300px;
+}
+
+.basketball{
+  position: absolute;
+  bottom: 140px;
+}
+
+.basketballanimation:active > .basketball{
+  animation: 0.5s basketanimation infinite alternate
+}
+
+@keyframes basketanimation {
+  0%   {bottom: 140px;}
+  15%  {bottom: 100px;}
+  25%  {bottom: 50px; transform: rotate(100deg);}
+  35%  {bottom: 0px;}
+  45%  {bottom: -10px;}
+  55%  {bottom: -30px;}
+  65%  {bottom: -50px;}
+  75%  {bottom: -80px;}
+  85%  {bottom: -100px; transform: rotate(200deg);}
+  95%  {bottom: -140px;}
+  100% {bottom: -155px;}
+}
+
+
+.shadow{
+  width: 205px;
+  height: 40px;
+  border-radius: 100%;
+  opacity: 30%;
+  background-color: gray;
+  position: relative;
+  top: 180px;
+}
