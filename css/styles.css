@@ -145,11 +145,14 @@
   to { transform: translateX(250px) ; } 
 }
 
+.cubeanimation:active > .smallcube{
+ animation: 4s moveCube 2 alternate
+}
 
-
-
-.cubeanimation{
-
+@keyframes moveCube {
+  0%   {background-color:#AFE241; left:30px; top:350px;}
+  50%  {background-color:gray; left:300px; top:67px; border-radius: 50%; border: 0px; opacity: 30%; width: 233px; height: 233px;}
+  100% {background-color:#E241BF; left:600px; top:350px; width: 261px; height: 287px;}
 }
 
 .smallcube{
@@ -158,6 +161,6 @@
   height: 80px;
   position: relative;
   border: 1px solid black;
-  top: 20px;
-  right:20px;
+  top: 350px;
+  left: 30px;
 }
