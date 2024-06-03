@@ -164,3 +164,15 @@
   top: 350px;
   left: 30px;
 }
+
+.cubeanimation2:active > .smallcube{
+  animation: 10s moveCube2 2 alternate
+ }
+
+@keyframes moveCube2 {
+  0%   {background-color:#AFE241; left:30px; top:350px;}
+  25%  {background-color:#AFE241; left:150px; top:30px; transform:rotateZ(30deg);}
+  50%  {background-color:gray; left:300px; top:67px; border-radius: 50%; border: 0px; opacity: 30%; width: 233px; height: 233px;}
+  75%  {background-color:#4178E2; left:400px; top:250px; width: 100px; height: 100px; transform:rotateZ(30deg);}
+  100% {background-color:#E241BF; left:600px; top:350px; width: 261px; height: 287px;}
+}
