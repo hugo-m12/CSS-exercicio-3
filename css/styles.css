@@ -206,7 +206,6 @@
   100% {bottom: -155px;}
 }
 
-
 .shadow{
   width: 205px;
   height: 40px;
@@ -215,4 +214,29 @@
   background-color: gray;
   position: relative;
   top: 180px;
+}
+
+.photobg{
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 140px;
+  color: white;
+}
+
+.container2{
+  display: flex;
+  gap: 100px;
+}
+
+.images img{
+  border-radius: 5%;
+}
+
+.images{
+  transition: transform 0.5s, color 0.5s ;
+}
+.images:hover{
+  color: red;
+  filter: grayscale(1);
+  transform: scale(120%)
 }
