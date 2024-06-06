@@ -247,19 +247,18 @@
   display: flex;
   width: 50px;
   height: 300px;
+  
 }
 
 .images2{
-  border: 3px solid white;
   min-height: 300px;
-  display: flex;
-  flex-wrap: wrap;
   min-width: 50px;
   max-width: 100%;
   transition: width 0.5s, filter 0.5ms, ease; 
 }
 
 .images2 > img{
+  border: 6px solid white;
   object-fit: cover;
 }
 
